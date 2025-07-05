@@ -1,14 +1,41 @@
-# Librairy Next.js Frontend
+# Bibliotheque
+Projet de gestion d'une bibliothèque
+Auteur : SOMA Doumbo Ina Fatima
 
-Ce projet a été généré avec Next.js 14, TypeScript, Tailwind CSS et ESLint.
+# Application de Gestion de Bibliothèque Universitaire
 
-## Migration
+La plateforme web "MonLivre" permet aux étudiants d’une université de rechercher, emprunter et retourner des livres en ligne.  
+Les administrateurs disposent d’un tableau de bord pour gérer les livres et les utilisateurs.
 
-Ce dossier est prêt à recevoir la migration du code depuis le projet Vite (`../frontend`).
+---
 
-- Placez vos pages dans `src/app`.
-- Placez vos composants dans `src/components`.
-- Adaptez les hooks et utilitaires dans `src/hooks` et `src/lib`.
+## Fonctionnalités
+
+-  Authentification sécurisée (JWT)
+-  Recherche de livres par titre, auteur, genre
+-  Emprunt et retour de livres
+-  Tableau de bord administrateur
+-  Upload de couvertures de livres via **Cloudinary**
+
+---
+
+##  Technologies utilisées
+
+- **Frontend** : Next.js, Tailwind CSS
+- **Backend** : Node.js, Express.js
+- **Base de données** : MySQL
+- **Auth** : bcrypt, JWT
+- **Fichiers** : multer + Cloudinary
+
+---
+
+##  Installation (en local)
+
+###  Cloner le projet
+
+```bash
+git clone https://github.com/inacentrale/Bibliotheque_frontend.git
+```
 
 ## Démarrage
 
@@ -16,6 +43,3 @@ Ce dossier est prêt à recevoir la migration du code depuis le projet Vite (`..
 npm run dev
 ```
 
-## Documentation
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Migration Vite → Next.js](https://nextjs.org/docs/pages/building-your-application/upgrading/vite)
