@@ -39,6 +39,9 @@ git clone https://github.com/inacentrale/Bibliotheque_frontend.git
 
 ## Démarrage
 
+- cd Bibliotheque_frontend
+- npm install
+
 ```bash
 npm run dev
 ```
